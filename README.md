@@ -1,27 +1,36 @@
 ## Usage
+I used SWAPI For the data source.
 
-In order to run this, you can run it locally or through docker.
+In order to run this project, you can run it locally or through docker.
 
 ### Run the server
 
 #### Localy:
-1- First make sure to have python and pip installed
-2- cd into the TASK_PROJ folder
+<ol>
+<li> First make sure to have python and pip installed </li>
+<li> cd into the TASK_PROJ folder </li>
+</ol>
+
 #### Then commands to run:
-1- pip install -r requirements.txt
-2- python app.py
-3- python test_api.py // to run the unit testing
+<ol>
+<li> pip install -r requirements.txt</li>
+<li> python app.py</li>
+<li> python test_api.py // to run the unit testing</li>
+</ol>
 
 #### Docker:
-1- First make sure to have docker
-2- cd into the TASK_PROJ folder
-3- make sure port 5000 on your local machine is empty
+<ol>
+<li> First make sure to have docker</li>
+<li> cd into the TASK_PROJ folder</li>
+<li> make sure port 5000 on your local machine is empty</li>
+</ol>
 #### Then commands to run:
-1- docker image build -t docker-flask-app .
-2- docker run -p 5000:5000 -d docker-flask-app
-3- docker exec -it conatinerID
-4- python test_api.py // to run the unit testing
-
+<ol>
+<li> docker image build -t docker-flask-app .</li>
+<li> docker run -p 5000:5000 -d docker-flask-app</li>
+<li> docker exec -it conatinerID</li>
+<li> python test_api.py // to run the unit testing</li>
+</ol>
 
 #### Using
 The app will run on port 5000. You can access the server on localhost on
