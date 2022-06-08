@@ -24,6 +24,7 @@ In order to run this project, you can run it locally or through docker.
 <li> cd into the TASK_PROJ folder</li>
 <li> make sure port 5000 on your local machine is empty</li>
 </ol>
+
 #### Then commands to run:
 <ol>
 <li> docker image build -t docker-flask-app .</li>
